@@ -18,7 +18,7 @@ spring:
     database: mysql
     show-sql: true
     hibernate:
-      ddl-auto: create #create #애플리케이션 실행시점에 다 지우고 다시 생성
+      ddl-auto: none #create #애플리케이션 실행시점에 다 지우고 다시 생성
     properties:
       hibernate:
 #        show_sql: true
